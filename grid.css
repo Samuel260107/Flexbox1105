@@ -8,13 +8,13 @@
 .container{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
     grid-template-areas: 
     "nav nav nav nav"
-    "slidebar main main main"
-    "slidebar content1 content2 content3"
-    "slidebar footer footer footer";
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar footer footer footer";
     gap: 0.6%;
 }
 nav {
@@ -31,4 +31,29 @@ main{
 }
 #content1{
     background: #6fffd2;
+}
+#content2{
+    background: #64ffba;
+}
+#content3{
+    background: #73ffba;
+}
+footer{
+    background: #1de4b6;
+    grid-area: footer;
+}
+@media only screen and (max-width:550px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.0fr;
+        grid-template-areas: 
+        "nav"
+        "sidebar"
+        "main"
+        "content1"
+        "content2"
+        "content3"
+        "footer"
+        ;
+    }
 }
