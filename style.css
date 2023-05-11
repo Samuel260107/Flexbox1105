@@ -2,7 +2,7 @@
     height: 50px;
     display: flex;
     /*Valores possiveis principais (row|row-reverse|column|column-reverse)*/
-    flex-direction: row;
+    flex-direction: column;
     /*Valores possiveis principais (flex-start|flex-end|space-around|space-between)*/
     /*justify-content: space-around;*/
     /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
