@@ -1,4 +1,5 @@
 .container{
     display: flex;
+    /*Valores possiveis principais (row|row-reverse|column|column-reverse)*/
     flex-direction: row-reverse;
 }
