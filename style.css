@@ -6,8 +6,8 @@
     /*Valores possiveis principais (flex-start|flex-end|space-around|space-between)*/
     /*justify-content: space-around;*/
     /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
-    /* align-content: flex-start; */
-    justify-content: space-between ;
+    /* align-content: flex-start;*/
+    justify-content: space-between;
     flex-wrap: wrap;
     /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
     align-items: center;
