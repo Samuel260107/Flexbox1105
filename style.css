@@ -1,5 +1,26 @@
 .container{
+    height: 50px;
     display: flex;
     /*Valores possiveis principais (row|row-reverse|column|column-reverse)*/
-    flex-direction: column;
+    flex-direction: row;
+    /*Valores possiveis principais (flex-start|flex-end|space-around|space-between)*/
+    /*justify-content: space-around;*/
+    /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
+    /* align-content: flex-start; */
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
+    align-items: center;
+}
+.container1{
+    width: 50px;
+    display: flex;
+    /*Valores possiveis principais (row|row-reverse|column|column-reverse)*/
+    flex-direction: row;
+    /*Valores possiveis principais (flex-start|flex-end|space-around|space-between)*/
+    justify-content: space-around;
+    /*Valores possiveis principais (center|stretch|flex-start|flex-end|baseline) */
+    align-content: center;
+    /*justify-content: space-between */
+    flex-wrap: wrap;
 }
